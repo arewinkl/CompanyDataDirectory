@@ -158,18 +158,7 @@ td {
 .inp input:hover {
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
 }
-.inp input:not(:-moz-placeholder-shown) + .label {
-  color: rgba(0, 0, 0, 0.5);
-  transform: translate3d(0, -12px, 0) scale(0.75);
-}
-.inp input:not(:-ms-input-placeholder) + .label {
-  color: rgba(0, 0, 0, 0.5);
-  transform: translate3d(0, -12px, 0) scale(0.75);
-}
-.inp input:not(:placeholder-shown) + .label {
-  color: rgba(0, 0, 0, 0.5);
-  transform: translate3d(0, -12px, 0) scale(0.75);
-}
+
 .inp input:focus {
   /*background: rgba(0, 0, 0, 0.05);*/
   outline: none;
@@ -178,8 +167,4 @@ td {
 .inp input:focus + .label {
   color: #0077ff;
   transform: translate3d(0, -12px, 0) scale(0.75);
-}
-.inp input:focus + .label + .focus-bg {
-  transform: scaleX(1);
-  transition: all 0.1s ease;
 }
