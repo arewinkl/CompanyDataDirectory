@@ -1,0 +1,19 @@
+{
+    "name": "Coding-Challenge-company",
+    "version": "1.0.0",
+    "description": "This is a company coding challenge.",
+    "main": "index.js",
+    "scripts": {
+        "user": "cd user && npm start",
+        "server": "node server/index.js",
+        "dev": "concurrently \"npm run server\" \"npm run user\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "concurrently": "^6.3.0"
+    }
+}

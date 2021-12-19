@@ -1,0 +1,108 @@
+.App {
+  background: rgb(244, 208, 224);
+  background: radial-gradient(
+    circle,
+    rgba(244, 208, 224, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.title {
+  text-align: center;
+  font-size: 5em;
+  text-decoration: underline;
+  font-family: cursive;
+  padding-bottom: 0.4em;
+  padding-top: 0.24em;
+  text-shadow: 2px 2px white;
+}
+.container {
+  padding-bottom: 80px;
+}
+.head {
+  background-color: rgb(238, 237, 237);
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+}
+
+.tHeader {
+  font-size: x-large;
+  text-align: left;
+  border: grey;
+}
+
+#search {
+  border: 6px;
+  width: 400px;
+
+  margin-bottom: 10px;
+}
+
+.searchBtn {
+  margin-left: 30px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  background-color: #3e68ff;
+  border-radius: 8px;
+  padding: 2px 20px px 20px;
+  color: white;
+  font-size: 20px;
+  width: 110px;
+}
+/*here is a test to see how changes would look*/
+
+.dataSearch {
+  background-color: rgb(238, 237, 237);
+
+  margin-left: 30px;
+  margin-bottom: 4em;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 23px;
+  padding: 4px 0px 4px 0px;
+}
+
+.searchForm {
+  width: 100%;
+  margin-left: 30%;
+}
+
+/*here is text for the adding new data fields */
+
+.titleTwo {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+.insertNew {
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+}
+
+.newInput {
+  background-color: rgb(238, 237, 237);
+  margin-left: 30px;
+  margin-bottom: 4em;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  border: 3px solid white;
+}
+
+.btnTwo {
+  margin-left: 30px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  background-color: #3e68ff;
+  border-radius: 8px;
+  padding: 0px 15px 0px 15px;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+}
