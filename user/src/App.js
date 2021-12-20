@@ -99,23 +99,19 @@ function App() {
         </div>
       </header>
 
-      <label for="inp" class="inp">
-        <input type="text" id="inp" placeholder="&nbsp;" />
-        <span class="label">Label</span>
-        <span class="focus-bg"></span>
-      </label>
-
       <div className="searchForm">
         <input
           type="text"
           id="search"
           className="dataSearch"
           value={input}
-          required="required"
+          /*required="required"
           aria-label="Large"
-          placeholder="Search by Deal Name"
+          placeholder="Search by Deal Name"*/
           onChange={(event) => setInput(event.target.value)}
         />
+        <span class="label">Search Deal Names</span>
+        <span class="focus-bg"></span>
       </div>
       <div>
         <h2 className="titleTwo">*Add New Company Data</h2>
